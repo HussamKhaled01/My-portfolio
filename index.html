@@ -49,13 +49,13 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler shadow-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center text-lg-start">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#hero">Home</a>
                         </li>
@@ -93,9 +93,9 @@
                             </ul>
                         </li>                         -->
                     </ul>
-                    <div class="d-flex">
+                    <!-- <div class="d-flex">
                         <button class="btn btn-outline-success" type="submit">Search</button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </nav>
@@ -112,7 +112,7 @@
 
                 <h1>Hi I’m</h1>
                 <h1 class="hock-text">Hussam Junior</h1>
-                <h1>Full Stack Developer</h1>
+                <h1>Full Stack</h1>
                 <h1>Developer</h1>
 
                 <p>I build scalable web applications using .NET and Angular.</p>
@@ -120,7 +120,8 @@
 
                 <div class="hero-buttons">
                     <a href="#projects" class="btn-projects">View Projects</a>
-                    <a href="" class="btn-CV">Download CV &nbsp; <i class="bi bi-download"></i></a>
+                    <a href="files/My Resume - .NET.pdf" class="btn-CV">Download CV &nbsp; <i
+                            class="bi bi-download"></i></a>
                 </div>
             </div>
         </section>
@@ -146,9 +147,9 @@
                     <div class="education-icon"><i class="bi bi-mortarboard"></i></div>
                     <div class="education-text">
                         <h2>Bachelor of</h2>
-                        <h2>Software Engineering</h2>
+                        <h2>Software</h2>
+                        <h2>Engineering</h2>
                         <p class="education-date"><i class="bi bi-calendar"></i> 2021 - 2025</p>
-                        <p><strong>Major: </strong>Software Engineering</p>
                         <p><strong>GPA: </strong>87.3</p>
                     </div>
 
@@ -186,64 +187,66 @@
                 <h1>SKILLS</h1>
             </div>
             <div class="skills-cards">
-                <div class="skill-card skill-card1">
-                    <div class="skill-icon"><i class="bi bi-hdd-stack"></i> &nbsp;<strong>Back End</strong></div>
-                    <div class="skills-text skill-card-text1">
-                        <ul>
-                            <li>C#</li>
-                            <li>.NET Core</li>
-                            <li>ASP.NET Core MVC</li>
-                            <li>.NET Web Api</li>
-                        </ul>
+                <div class="skill-card-parent">
+                    <div class="skill-card skill-card1">
+                        <div class="skill-icon"><i class="bi bi-hdd-stack"></i> &nbsp;<strong>Back End</strong></div>
+                        <div class="skills-text skill-card-text1">
+                            <ul>
+                                <li>C#</li>
+                                <li>.NET Core</li>
+                                <li>ASP.NET Core MVC</li>
+                                <li>.NET Web Api</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
-                <div class="skill-card skill-card2">
-                    <div class="skill-icon"><i class="bi bi-window-fullscreen"></i> &nbsp;<strong>Front End</strong>
-                    </div>
-                    <div class="skills-text skill-card-text2">
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>TypeScript</li>
-                            <li>Angular</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="skill-card skill-card3">
-                    <div class="skill-icon"><i class="bi bi-database"></i> &nbsp;<strong>Database</strong></div>
-                    <div class="skills-text skill-card-text3">
-                        <ul>
-                            <li>SQL Server</li>
-                            <li>Entity Framework</li>
-                            <li>T-SQL</li>
-                        </ul>
+                <div class="skill-card-parent">
+                    <div class="skill-card skill-card2">
+                        <div class="skill-icon"><i class="bi bi-window-fullscreen"></i> &nbsp;<strong>Front End</strong>
+                        </div>
+                        <div class="skills-text skill-card-text2">
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>TypeScript</li>
+                                <li>Angular</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
-                <div class="skill-card skill-card4">
-                    <div class="skill-icon"><i class="bi bi-gear"></i> &nbsp;<strong>Tools</strong></div>
-                    <div class="skills-text skill-card-text4">
-                        <ul>
-                            <li>Git</li>
-                            <li>Github</li>
-                            <li>Visual Studio</li>
-                            <li>VS Code</li>
-                            <li>Postman</li>
-                        </ul>
+
+                <div class="skill-card-parent">
+                    <div class="skill-card skill-card3">
+                        <div class="skill-icon"><i class="bi bi-database"></i> &nbsp;<strong>Database</strong></div>
+                        <div class="skills-text skill-card-text3">
+                            <ul>
+                                <li>SQL Server</li>
+                                <li>Entity Framework</li>
+                                <li>T-SQL</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
-                <div class="skill-card skill-card5">
-                    <div class="skill-icon"><i class="bi bi-cloud"></i> &nbsp;<strong>Cloud</strong></div>
-                    <div class="skills-text skill-card-text5">
-                        <ul>
-                            <li>Azure</li>
-                        </ul>
+                <div class="skill-card-parent">
+                    <div class="skill-card skill-card4">
+                        <div class="skill-icon"><i class="bi bi-gear"></i> &nbsp;<strong>Tools</strong></div>
+                        <div class="skills-text skill-card-text4">
+                            <ul>
+                                <li>Git</li>
+                                <li>Github</li>
+                                <li>Visual Studio</li>
+                                <li>VS Code</li>
+                                <li>Postman</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+
+
 
             </div>
 
@@ -279,7 +282,7 @@
                     <div class="project-card-buttons project-card-buttons1">
                         <a href="#">Github <i class="bi bi-github"></i></a>
                     </div>
-                </div>                
+                </div>
                 <div class="project-card  project-card-2">
                     <div class="project-card-image" style="background-image: url(images/software.png);"></div>
                     <div class="project-card-text">
