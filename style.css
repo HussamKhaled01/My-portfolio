@@ -1198,7 +1198,7 @@ section.contact {
 
 
     section.projects {
-        height: 920px;
+        height: 940px;
         background-color: #0077FF;
         display: flex;
         flex-direction: column;
@@ -1230,6 +1230,7 @@ section.contact {
         display: flex;
         flex-direction: column;
         gap: 12px;
+        height: 800px;
         justify-content: start;
         align-items: center;
         border-radius: 20px;
@@ -1288,7 +1289,7 @@ section.contact {
     }
 
     .experience-cards {
-        width: 40%;
+        width: 45%;
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -1330,16 +1331,16 @@ section.contact {
     }
 
     .experience-card-icon {
-        width: 10%;
-        height: 60px;
-        font-size: 2.7rem;
+        width: 15%;
+        height: 70px;
+        font-size: 3rem;
         border-radius: 10px;
         background-color: #0077FF;
         color: white;
     }
 
     .experience-card-title {
-        width: 60%;
+        width: 70%;
         display: flex;
         flex-direction: column;
         align-items: start;
