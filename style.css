@@ -298,7 +298,6 @@ section.education {
 }
 
 section.skills {
-    height: 1590px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -306,6 +305,7 @@ section.skills {
     text-align: center;
     gap: 20px;
     background-color: #F8F8F8;
+    padding: 30px 0px;
 
 }
 
@@ -356,7 +356,7 @@ section.skills {
     box-shadow: 0 12px 20px rgba(0, 119, 255, 0.5);
 }
 
-.skill-icon {
+.skill-icon-text {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -373,16 +373,16 @@ section.skills {
 
 .skills-text {
     display: flex;
-    flex-direction: column;
+    flex-flow: row wrap;
     width: 80%;
-    height: 180px;
     margin-top: 15px;
     justify-content: center;
     align-items: start;
     text-align: start;
-    font-size: 1.7rem;
+    font-size: 4rem;
     font-weight: 700;
-    color: #222222;
+    color: #0077FF;
+    gap: 30px;
 }
 
 section.projects {
@@ -429,7 +429,6 @@ section.projects {
     border-radius: 20px;
     background-color: #F8F8F8;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-
 }
 
 .project-card-image {
@@ -809,7 +808,6 @@ section.contact {
 
 
     section.skills {
-        height: 930px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -849,7 +847,7 @@ section.contact {
     }
 
     .skill-card {
-        height: 370px;
+        height: 550px;
         width: 90%;
         border-radius: 40px;
         padding: 15px 10px;
@@ -858,9 +856,21 @@ section.contact {
         transition: transform 0.8s ease, box-shadow 0.8s ease;
     }
 
+    .skills-text {
+        width: 80%;
+        margin-top: 15px;
+        justify-content: center;
+        align-items: start;
+        text-align: start;
+        font-size: 4rem;
+        font-weight: 700;
+        color: #0077FF;
+        gap: 30px;
+    }
 
 
-    .skill-icon {
+
+    .skill-icon-text {
         font-size: 2.2rem;
     }
 
@@ -1196,7 +1206,6 @@ section.contact {
 
 
     section.skills {
-        height: 970px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1229,8 +1238,12 @@ section.contact {
 
     }
 
-    .skill-icon {
+    .skill-icon-text {
         font-size: 2.5rem;
+    }
+
+    .skill-card{
+        height: 350px;
     }
 
 
