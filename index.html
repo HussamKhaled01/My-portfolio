@@ -24,7 +24,6 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" defer
@@ -49,7 +48,7 @@
 
 <body>
 
-    <header>
+    <header id="top">
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
@@ -67,7 +66,7 @@
                             <a class="nav-link" aria-current="page" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#education">Eduction</a>
+                            <a class="nav-link" aria-current="page" href="#education">Education</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#skills">Skills</a>
@@ -84,9 +83,6 @@
 
 
                     </ul>
-                    <!-- <div class="d-flex">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </div> -->
                 </div>
             </div>
         </nav>
@@ -94,7 +90,7 @@
 
     <main>
         <section class="hero" id="home">
-            <div class="hero-photo" id="home">
+            <div class="hero-photo">
 
             </div>
 
@@ -160,7 +156,7 @@
                             <p>Udemy • 2025</p>
                         </div>
                         <div class="certif">
-                            <strong>Microsoft Certified:<br>Azure Fundementals</strong>
+                            <strong>Microsoft Certified:<br>Azure Fundamentals</strong>
                             <p>Microsoft • 2026</p>
                         </div>
 
@@ -178,23 +174,7 @@
                 <h1>SKILLS</h1>
             </div>
             <div class="skills-cards">
-                <div class="skill-card-parent">
-                    <div class="skill-card skill-card1">
-                        <div class="skill-icon-text"><i class="bi bi-hdd-stack"></i> &nbsp;<strong>Back End</strong>
-                        </div>
-                        <div class="skills-text">
 
-                            <div class="Skill-icon">
-                                <i class="devicon-csharp-plain"></i>
-                            </div>
-
-                            <div class="Skill-icon">
-                                <i class="devicon-dotnetcore-plain"></i>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
 
                 <div class="skill-card-parent">
                     <div class="skill-card skill-card2">
@@ -223,24 +203,6 @@
                         </div>
                     </div>
                 </div>
-
-
-                <div class="skill-card-parent">
-                    <div class="skill-card skill-card3">
-                        <div class="skill-icon-text"><i class="bi bi-database"></i> &nbsp;<strong>Database</strong>
-                        </div>
-                        <div class="skills-text">
-
-                            <div class="Skill-icon">
-                                <i class="devicon-microsoftsqlserver-plain"></i>
-                            </div>
-                            <div class="Skill-icon">
-                                <i class="devicon-entityframeworkcore-plain"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <div class="skill-card-parent">
                     <div class="skill-card">
                         <div class="skill-icon-text"><i class="bi bi-gear"></i> &nbsp;<strong>Tools</strong></div>
@@ -263,6 +225,43 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="skill-card-parent">
+                    <div class="skill-card skill-card1">
+                        <div class="skill-icon-text"><i class="bi bi-hdd-stack"></i> &nbsp;<strong>Back End</strong>
+                        </div>
+                        <div class="skills-text">
+
+                            <div class="Skill-icon">
+                                <i class="devicon-csharp-plain"></i>
+                            </div>
+
+                            <div class="Skill-icon">
+                                <i class="devicon-dotnetcore-plain"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="skill-card-parent">
+                    <div class="skill-card skill-card3">
+                        <div class="skill-icon-text"><i class="bi bi-database"></i> &nbsp;<strong>Database</strong>
+                        </div>
+                        <div class="skills-text">
+
+                            <div class="Skill-icon">
+                                <i class="devicon-microsoftsqlserver-plain"></i>
+                            </div>
+                            <div class="Skill-icon">
+                                <i class="devicon-entityframeworkcore-plain"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
 
 
 
@@ -410,9 +409,35 @@
                         <div class="experience-card-icon"><i class="bi bi-briefcase"></i></div>
                         <div class="experience-card-title">
                             <h2>Full Stack Developer</h2>
-                            <p>Orange Coding Academy</p>
-                            <div> <small><i class="bi bi-geo-alt"></i>&nbsp;Hybrid</small> &nbsp;&nbsp;<small><small><i
-                                            class="bi bi-geo-alt"></i>&nbsp;Feb 2026 - Present</small>
+                            <p><a href="https://www.linkedin.com/company/neorx2024" target="_blank"
+                                    rel="noopener noreferrer"><i class="bi bi-link-45deg"></i>NeoRx</a></p>
+                            <div class="experience-meta">
+                                <small><i class="bi bi-geo-alt"></i>&nbsp;Hybrid</small>
+                                <small><i class="bi bi-calendar3"></i>&nbsp;Feb 2026 - Present</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lower-card-info">
+                        <div><i class="bi bi-check-circle"></i>&nbsp;Build Angular features using components, signals,
+                            and webcam barcode integration.</div>
+                        <div><i class="bi bi-check-circle"></i>&nbsp;Develop ASP.NET Web API services with CRUD
+                            operations, CORS handling, and Repository pattern.</div>
+                        <div><i class="bi bi-check-circle"></i>&nbsp;Execute assigned tasks while strengthening full
+                            stack development skills.</div>
+                    </div>
+                </div>
+                <div class="main-card">
+                    <div class="card-upper">
+                        <div class="experience-card-icon"><i class="bi bi-briefcase"></i></div>
+                        <div class="experience-card-title">
+                            <h2>Full Stack Developer</h2>
+                            <p><a href="https://www.linkedin.com/company/orange-jordan" target="_blank"
+                                    rel="noopener noreferrer"><i class="bi bi-link-45deg"></i>Orange Coding Academy</a>
+                            </p>
+                            <div class="experience-meta">
+                                <small><i class="bi bi-geo-alt"></i>&nbsp;Hybrid</small>
+                                <small><i class="bi bi-calendar3"></i>&nbsp;Feb 2026 - Present</small>
                             </div>
                         </div>
                     </div>
@@ -431,9 +456,11 @@
                         <div class="experience-card-icon"><i class="bi bi-briefcase"></i></div>
                         <div class="experience-card-title">
                             <h2>Full Stack Developer</h2>
-                            <p>Omicron Solutions</p>
-                            <div> <small><i class="bi bi-geo-alt"></i>&nbsp;Hybrid</small> &nbsp;&nbsp;<small><small><i
-                                            class="bi bi-geo-alt"></i>&nbsp;Oct 2025 – Jan 2026</small>
+                            <p><a href="https://www.linkedin.com/company/omicron-solutions-jo" target="_blank"
+                                    rel="noopener noreferrer"><i class="bi bi-link-45deg"></i>Omicron Solutions</a></p>
+                            <div class="experience-meta">
+                                <small><i class="bi bi-geo-alt"></i>&nbsp;Hybrid</small>
+                                <small><i class="bi bi-calendar3"></i>&nbsp;Oct 2025 – Jan 2026</small>
                             </div>
                         </div>
                     </div>
@@ -448,27 +475,6 @@
                     </div>
                 </div>
 
-                <!-- <div class="main-card">
-                    <div class="card-upper">
-                        <div class="experience-card-icon"><i class="bi bi-briefcase"></i></div>
-                        <div class="experience-card-title">
-                            <h2>Software Development Intern</h2>
-                            <p>Orange Coding Academy</p>
-                            <div> <small><i class="bi bi-geo-alt"></i>&nbsp;Hybrid</small> &nbsp;&nbsp;<small><small><i
-                                            class="bi bi-geo-alt"></i>&nbsp;Mar 2025 – Jun 2025</small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="lower-card-info">
-                        <div><i class="bi bi-check-circle"></i>&nbsp;Contribute to system analysis and software
-                            requirements documentation for projects.</div>
-                        <div><i class="bi bi-check-circle"></i>&nbsp;Design UML diagrams and system models using Visual
-                            Paradigm tools.</div>
-                        <div><i class="bi bi-check-circle"></i>&nbsp;Collaborate on requirements analysis, wireframes,
-                            and user interface designs using Figma.</div>
-                    </div>
-                </div> -->
             </div>
 
         </section>
@@ -482,6 +488,9 @@
             <a href="mailto:hussamkhaledb@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a>
 
         </section>
+
+        <a href="#top" class="scroll-top">↑</a>
+
 
     </main>
 
