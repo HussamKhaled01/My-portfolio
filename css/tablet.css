@@ -1,0 +1,267 @@
+@media (min-width: 768px) {
+
+    section.hero {
+        flex-direction: row;
+        min-height: 500px;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+        padding: 40px;
+    }
+
+    .hero-identity {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 35%;
+        max-width: 300px;
+    }
+
+    .hero-photo {
+        width: 100%;
+        max-width: unset;
+    }
+
+    .hero-text {
+        width: 40%;
+        align-items: flex-start;
+        text-align: start;
+    }
+
+    .hero-text h1 {
+        font-size: 3.1rem;
+        line-height: 1.15;
+        font-weight: 700;
+        text-wrap: nowrap;
+    }
+
+    .hero-text h2 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    .hero-text p {
+        font-size: 1.1rem;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        padding-left: 0px;
+    }
+
+    .hero-text a {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: row;
+        text-wrap: nowrap;
+    }
+
+    .btn-projects {
+        padding: 10px 25px;
+    }
+
+    .btn-CV {
+        padding: 10px 25px;
+        margin-bottom: 0px;
+    }
+
+    section.about {
+        padding: 20px 35px;
+    }
+
+    .about h1 {
+        font-size: 2.5rem;
+    }
+
+    .about p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+
+    .about strong {
+        font-size: 1.5rem;
+    }
+
+    section.education {
+        padding: 20px 40px;
+        gap: 10px;
+    }
+
+    .education h1 {
+        font-size: 2.5rem;
+    }
+
+    .education-timeline::before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .timeline-item {
+        padding-left: 0;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .timeline-item:nth-child(odd) {
+        align-items: flex-end;
+    }
+
+    .timeline-item:nth-child(even) {
+        align-items: flex-start;
+    }
+
+    .timeline-item:nth-child(odd) .timeline-content {
+        margin-right: calc(50% + 30px);
+        width: 42%;
+        max-width: 500px;
+        text-align: left;
+
+    }
+
+    .timeline-item:nth-child(even) .timeline-content {
+        margin-left: calc(50% + 30px);
+        width: 42%;
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .timeline-dot {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 44px;
+        height: 44px;
+        font-size: 1.3rem;
+        border-width: 1.5px;
+    }
+
+    .timeline-item:nth-child(1) {
+        transition-delay: 0.1s;
+    }
+
+    .timeline-item:nth-child(2) {
+        transition-delay: 0.2s;
+    }
+
+    .timeline-item:nth-child(3) {
+        transition-delay: 0.3s;
+    }
+
+    .timeline-item:nth-child(4) {
+        transition-delay: 0.4s;
+    }
+
+    .timeline-item:nth-child(5) {
+        transition-delay: 0.5s;
+    }
+
+    section.skills {
+        padding: 20px 40px;
+    }
+
+    .skills h1 {
+        font-size: 2.5rem;
+    }
+
+    .skill-icon-text {
+        font-size: 1.5rem;
+    }
+
+    section.projects {
+        padding: 20px 40px;
+        gap: 10px;
+    }
+
+    .projects h1 {
+        font-size: 2.5rem;
+    }
+
+    .carousel-container {
+        gap: 25px;
+    }
+
+    .carousel-control {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+
+    .project-card {
+        padding: 0 15px;
+    }
+
+    .project-card-image {
+        height: 220px;
+    }
+
+    .project-card-text {
+        padding: 25px;
+    }
+
+
+    section.experience {
+        padding: 20px 40px;
+        gap: 10px;
+    }
+
+    .experience h1 {
+        font-size: 2.5rem;
+    }
+
+    .experience-timeline {
+        width: 90%;
+    }
+
+
+    .exp-acc-details {
+        display: grid;
+        grid-template-columns: 1fr 1fr 0.8fr;
+
+        gap: 20px;
+        align-items: center;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .exp-acc-header {
+        padding: 20px 25px;
+    }
+
+    .exp-acc-role {
+        font-size: 1.3rem;
+    }
+
+    .exp-acc-content {
+        padding: 20px 25px 25px;
+    }
+
+    .exp-acc-highlights li {
+        font-size: 0.95rem;
+    }
+
+
+    .main-footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 60px;
+        gap: 20px;
+    }
+
+    .footer-cta-compact {
+        font-size: 1.5rem;
+        flex: 1;
+        text-align: left;
+    }
+
+    .footer-icons-compact {
+        flex: 0 0 auto;
+    }
+
+    .footer-copyright {
+        flex: 1;
+        text-align: right;
+    }
+}

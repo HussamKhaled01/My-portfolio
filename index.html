@@ -30,7 +30,9 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/desktop.css">
 
 
     <!-- Font-->
@@ -89,9 +91,20 @@
     </header>
 
     <main>
-        <section class="hero" id="home">
-            <div class="hero-photo">
-
+        <section class="hero" id="hero">
+            <div class="hero-identity">
+                <div class="hero-photo"></div>
+                <div class="hero-socials">
+                    <a href="https://www.linkedin.com/in/hussamkhaled01/" target="_blank" class="social-icon">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/HussamKhaled01" target="_blank" class="social-icon">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="mailto:hussamkhaledb@gmail.com" target="_blank" class="social-icon">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                </div>
             </div>
 
             <div class="hero-text">
@@ -102,66 +115,72 @@
                 <h1>Full Stack</h1>
                 <h1>Developer</h1>
 
-                <p>I build scalable web applications using .NET and Angular.</p>
+                <p>Building scalable web applications with .NET and Angular.</p>
 
 
                 <div class="hero-buttons">
                     <a href="#projects" class="btn-projects">View Projects</a>
-                    <a href="files/My Resume - .NET.pdf" class="btn-CV" target="_blank">Download CV &nbsp; <i
-                            class="bi bi-download"></i></a>
+                    <a href="files/Hussam Khaled CV- Full Stack.pdf" class="btn-CV" target="_blank">Download CV &nbsp;
+                        <i class="bi bi-download"></i></a>
                 </div>
             </div>
         </section>
 
         <section class="about" id="about">
             <h1>ABOUT ME</h1>
-            <p>
-                A person who enjoys building and integrating APIs and bringing projects to life.
-                Aiming to grow into a <strong>Senior Full Stack Developer</strong> combining .NET, frontend frameworks,
-                and DevOps
-                skills with business insight.
+            <p class="reveal">
+                Full Stack Developer dedicated to building reliable web solutions using <strong>.NET and
+                    Angular</strong>
+                I balance my technical development with interpersonal skills, focusing on effective team
+                collaboration and clear communication to help reach project goals.
             </p>
 
         </section>
 
         <section class="education" id="education">
 
-            <div class="education-title">
+            <div class="education-title reveal">
                 <h1>EDUCATION</h1>
             </div>
-            <div class="education-cards">
-                <div class="education-main">
-                    <div class="education-icon"><i class="bi bi-mortarboard"></i></div>
-                    <div class="education-text">
-                        <h2>Bachelor of</h2>
-                        <h2>Software</h2>
-                        <h2>Engineering</h2>
-                        <p class="education-date"><i class="bi bi-calendar"></i> 2021 - 2025</p>
-                        <p><strong>GPA: </strong>87.3</p>
+            <div class="education-timeline">
+                <!-- Degree: Academic Highlight -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"><i class="bi bi-mortarboard-fill"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 - 2025</span>
+                        <h2>Bachelor of Software Engineering</h2>
+                        <p class="education-detail"><strong>GPA: </strong>87.3</p>
                     </div>
-
                 </div>
 
-                <div class="education-certifications">
-                    <div class="certifications-icon"><i class="bi bi-check-circle"></i></div>
-                    <div class="certifications-text">
-                        <h2>Certifications</h2>
-
-                        <div class="certif">
-                            <strong>Full Stack Course:<br>MERN Stack</strong>
-                            <p>HTUx • 2025</p>
-                        </div>
-                        <div class="certif">
-                            <strong>Full Stack Course:<br>ASP.NET Core MVC</strong>
-                            <p>Udemy • 2025</p>
-                        </div>
-                        <div class="certif">
-                            <strong>Microsoft Certified:<br>Azure Fundamentals</strong>
-                            <p>Microsoft • 2026</p>
-                        </div>
-
+                <!-- Course 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"><i class="bi bi-journal-bookmark-fill"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025</span>
+                        <h2>Full Stack: MERN Stack</h2>
+                        <p class="education-detail">HTUx</p>
                     </div>
+                </div>
 
+                <!-- Course 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"><i class="bi bi-journal-bookmark-fill"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025</span>
+                        <h2>Full Stack: ASP.NET Core MVC</h2>
+                        <p class="education-detail">Udemy</p>
+                    </div>
+                </div>
+
+                <!-- Course 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"><i class="bi bi-journal-bookmark-fill"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2026</span>
+                        <h2>Microsoft Certified: Azure Fundamentals</h2>
+                        <p class="education-detail">Microsoft</p>
+                    </div>
                 </div>
             </div>
 
@@ -170,333 +189,193 @@
 
         <section class="skills" id="skills">
 
-            <div class="skills-title">
+            <div class="skills-title reveal">
                 <h1>SKILLS</h1>
             </div>
             <div class="skills-cards">
 
-
-                <div class="skill-card-parent">
-                    <div class="skill-card skill-card2">
-                        <div class="skill-icon-text"><i class="bi bi-window-fullscreen"></i> &nbsp;<strong>Front
-                                End</strong>
-                        </div>
-                        <div class="skills-text">
-
-
-                            <div class="Skill-icon">
-                                <i class="devicon-angular-plain"></i>
-                            </div>
-                            <div class="Skill-icon">
-                                <i class="devicon-html5-plain"></i>
-                            </div>
-                            <div class="Skill-icon">
-                                <i class="devicon-css3-plain"></i>
-                            </div>
-                            <div class="Skill-icon">
-                                <i class="devicon-javascript-plain"></i>
-                            </div>
-                            <div class="Skill-icon">
-                                <i class="devicon-typescript-plain"></i>
-                            </div>
-
-                        </div>
+                <!-- Back End -->
+                <div class="skill-card reveal delay-1">
+                    <div class="skill-icon-text">
+                        <i class="bi bi-hdd-stack"></i>
+                        <strong>Back End</strong>
                     </div>
-                </div>
-                <div class="skill-card-parent">
-                    <div class="skill-card">
-                        <div class="skill-icon-text"><i class="bi bi-gear"></i> &nbsp;<strong>Tools</strong></div>
-                        <div class="skills-text">
-                            <div class="Skill-icon">
-                                <i class="devicon-git-plain"></i>
-                            </div>
-                            <div class="Skill-icon">
-                                <i class="devicon-github-original"></i>
-                            </div>
-                            <div class="Skill-icon">
-                                <i class="devicon-visualstudio-plain"></i>
-                            </div>
-                            <div class="Skill-icon">
-                                <i class="devicon-vscode-plain"></i>
-                            </div>
-                            <div class="Skill-icon">
-                                <i class="devicon-postman-plain"></i>
-                            </div>
+                    <div class="skill-tags">
+                        <div class="skill-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
+                                alt="C# Logo" />
+                            <span>C#</span>
+                        </div>
+                        <div class="skill-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg"
+                                alt=".NET Logo" />
+                            <span>.NET Core</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="skill-card-parent">
-                    <div class="skill-card skill-card1">
-                        <div class="skill-icon-text"><i class="bi bi-hdd-stack"></i> &nbsp;<strong>Back End</strong>
+                <!-- Front End -->
+                <div class="skill-card reveal delay-2">
+                    <div class="skill-icon-text">
+                        <i class="bi bi-window-fullscreen"></i>
+                        <strong>Front End</strong>
+                    </div>
+                    <div class="skill-tags">
+                        <div class="skill-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg"
+                                alt="Angular Logo" />
+                            <span>Angular</span>
                         </div>
-                        <div class="skills-text">
-
-                            <div class="Skill-icon">
-                                <i class="devicon-csharp-plain"></i>
-                            </div>
-
-                            <div class="Skill-icon">
-                                <i class="devicon-dotnetcore-plain"></i>
-                            </div>
-
+                        <div class="skill-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                                alt="JavaScript Logo" />
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                                alt="TypeScript Logo" />
+                            <span>TypeScript</span>
+                        </div>
+                        <div class="skill-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                                alt="HTML5 Logo" />
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                                alt="CSS3 Logo" />
+                            <span>CSS3</span>
                         </div>
                     </div>
                 </div>
 
-
-                <div class="skill-card-parent">
-                    <div class="skill-card skill-card3">
-                        <div class="skill-icon-text"><i class="bi bi-database"></i> &nbsp;<strong>Database</strong>
+                <!-- Database -->
+                <div class="skill-card reveal delay-3">
+                    <div class="skill-icon-text">
+                        <i class="bi bi-database"></i>
+                        <strong>Database</strong>
+                    </div>
+                    <div class="skill-tags">
+                        <div class="skill-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg"
+                                alt="SQL Server Logo" />
+                            <span>SQL Server</span>
                         </div>
-                        <div class="skills-text">
-
-                            <div class="Skill-icon">
-                                <i class="devicon-microsoftsqlserver-plain"></i>
-                            </div>
-                            <div class="Skill-icon">
-                                <i class="devicon-entityframeworkcore-plain"></i>
-                            </div>
+                        <div class="skill-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/entityframeworkcore/entityframeworkcore-original.svg"
+                                alt="EF Logo" />
+                            <span>Entity Framework</span>
                         </div>
                     </div>
                 </div>
 
-
-
-
+                <!-- Tools -->
+                <div class="skill-card reveal delay-4">
+                    <div class="skill-icon-text">
+                        <i class="bi bi-gear"></i>
+                        <strong>Tools</strong>
+                    </div>
+                    <div class="skill-tags">
+                        <div class="skill-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg"
+                                alt="Visual Studio Logo" />
+                            <span>Visual Studio</span>
+                        </div>
+                        <div class="skill-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
+                                alt="VS Code Logo" />
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
+                                alt="Postman Logo" />
+                            <span>Postman</span>
+                        </div>
+                        <div class="skill-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                                alt="Git Logo" />
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                                alt="GitHub Logo" />
+                            <span>GitHub</span>
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
         </section>
 
         <section class="projects" id="projects">
-
-            <div class="projects-title">
+            <div class="projects-title reveal">
                 <h1>PROJECTS</h1>
             </div>
-            <div class="projects-cards">
 
-                <div class="project-card  project-card-1">
-                    <div class="project-card-image" style="background-image: url(images/software.png);"></div>
-                    <div class="project-card-text">
-                        <div class="project-text-h2">
-                            <h2>Business Card Management App</h2>
-                        </div>
-                        <div class="project-text-desc">
-                            <p class="project-text-desc">A system that allows companies to manage digital business cards
-                                that can be accessed through
-                                QR codes Scanning.</p>
-                        </div>
-                        <div class="project-text-problem">
-                            <p class="project-text-problem"><strong>Problem: </strong>Traditional paper business cards
-                                are easy to lose and difficult to
-                                update or manage across organizations.</p>
-                        </div>
-                        <div class="project-text-solution">
-                            <p><strong>Solution: </strong>The application provides a
-                                digital system where business cards can
-                                be created, stored, and accessed using QR codes, making sharing and management easier.
-                            </p>
-                        </div>
+            <div class="carousel-container">
+                <button class="carousel-control prev" id="prevBtn">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
 
-
-
-
-
-                    </div>
-                    <div class="project-card-tech">
-                        <h6>ASP.NET Web API</h6>
-                        <h6>Angular</h6>
-                        <h6>SQL Server</h6>
-                        <h6>OpenAPI</h6>
-                    </div>
-                    <div class="project-card-buttons project-card-buttons1">
-                        <a href="https://github.com/HussamKhaled01/LearningTask1" target="_blank">Github <i
-                                class="bi bi-github"></i></a>
-                    </div>
-                </div>
-                <div class="project-card  project-card-2">
-                    <div class="project-card-image" style="background-image: url(images/software.png);"></div>
-                    <div class="project-card-text">
-                        <div class="project-text-h2">
-                            <h2>E-commerce Management System</h2>
-                        </div>
-                        <div class="project-text-desc">
-                            <p>A scalable e-commerce management system designed to support different product types and
-                                business scenarios.</p>
-
-                        </div>
-                        <div class="project-text-problem">
-                            <p><strong>Problem: </strong>Many small businesses need a flexible system to manage
-                                products,
-                                orders, and customers without complex infrastructure.</p>
-
-                        </div>
-                        <div class="project-text-solution">
-                            <p><strong>Solution: </strong>This project implements a structured e-commerce system with a
-                                scalable database design and backend architecture.</p>
-
-                        </div>
-                    </div>
-
-
-
-
-                    <div class="project-card-tech">
-                        <h6>ASP.NET MVC</h6>
-                        <h6>SQL Server</h6>
-                        <h6>Entity Framework</h6>
-                    </div>
-                    <div class="project-card-buttons project-card-buttons2">
-                        <a href="https://github.com/HussamKhaled01/Ecommerce_Project" target="_blank">Github&nbsp;<i
-                                class="bi bi-github"></i></a>
-                    </div>
-                </div>
-                <div class="project-card ">
-                    <div class="project-card-image" style="background-image: url(images/software.png);"></div>
-
-
-                    <div class="project-card-text">
-                        <div class="project-text-h2">
-                            <h2>Shatleh Agricultural Store</h2>
-                        </div>
-                        <div class="project-text-desc">
-                            <p>A platform that provides agricultural products, services, and educational content in one
-                                place for modern home gardening needs.</p>
-
-
-                        </div>
-                        <div class="project-text-problem">
-                            <p><strong>Problem: </strong>People interested in home gardening often struggle to find
-                                trusted
-                                products, reliable services, and accurate agricultural guidance.</p>
-
-
-                        </div>
-                        <div class="project-text-solution">
-                            <p><strong>Solution: </strong>Shatleh brings products, agricultural services, and
-                                educational
-                                content together in a single platform to simplify plant care and gardening for users.
-                            </p>
-
-
-                        </div>
-                    </div>
-                    <div class="project-card-tech">
-                        <h6>Laravel</h6>
-                        <h6>React</h6>
-                        <h6>Next.js</h6>
-                        <h6>MySQL</h6>
-                    </div>
-                    <div class="project-card-buttons project-card-buttons3">
-                        <a href="https://github.com/MohAtiyyat/shatleh" target="_blank">Github <i
-                                class="bi bi-github"></i></a>
+                <div class="carousel-viewport">
+                    <div class="carousel-track" id="carouselTrack">
+                        <!-- Projects injected by JS -->
                     </div>
                 </div>
 
+                <button class="carousel-control next" id="nextBtn">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
             </div>
 
+            <div class="carousel-pagination" id="carouselPagination">
+                <!-- Dots injected by JS -->
+            </div>
         </section>
 
+        <dialog id="project-modal" class="project-modal">
+            <div class="modal-content">
+                <button class="modal-close" id="closeModal">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+                <div id="modal-body"></div>
+            </div>
+        </dialog>
 
         <section class="experience" id="experience">
-            <div class="experience-title">
+            <div class="experience-title reveal">
                 <h1>EXPERIENCE</h1>
             </div>
-            <div class="experience-cards">
-                <div class="main-card">
-                    <div class="card-upper">
-                        <div class="experience-card-icon"><i class="bi bi-briefcase"></i></div>
-                        <div class="experience-card-title">
-                            <h2>Full Stack Developer</h2>
-                            <p><a href="https://www.linkedin.com/company/neorx2024" target="_blank"
-                                    rel="noopener noreferrer"><i class="bi bi-link-45deg"></i>NeoRx</a></p>
-                            <div class="experience-meta">
-                                <small><i class="bi bi-geo-alt"></i>&nbsp;Hybrid</small>
-                                <small><i class="bi bi-calendar3"></i>&nbsp;Feb 2026 - Present</small>
-                            </div>
-                        </div>
-                    </div>
+            <div class="experience-timeline" id="experienceTimeline">
+                <!-- Timeline items injected by JS -->
+            </div>
+        </section>
 
-                    <div class="lower-card-info">
-                        <div><i class="bi bi-check-circle"></i>&nbsp;Build Angular features using components, signals,
-                            and webcam barcode integration.</div>
-                        <div><i class="bi bi-check-circle"></i>&nbsp;Develop ASP.NET Web API services with CRUD
-                            operations, CORS handling, and Repository pattern.</div>
-                        <div><i class="bi bi-check-circle"></i>&nbsp;Execute assigned tasks while strengthening full
-                            stack development skills.</div>
-                    </div>
-                </div>
-                <div class="main-card">
-                    <div class="card-upper">
-                        <div class="experience-card-icon"><i class="bi bi-briefcase"></i></div>
-                        <div class="experience-card-title">
-                            <h2>Full Stack Developer</h2>
-                            <p><a href="https://www.linkedin.com/company/orange-jordan" target="_blank"
-                                    rel="noopener noreferrer"><i class="bi bi-link-45deg"></i>Orange Coding Academy</a>
-                            </p>
-                            <div class="experience-meta">
-                                <small><i class="bi bi-geo-alt"></i>&nbsp;Hybrid</small>
-                                <small><i class="bi bi-calendar3"></i>&nbsp;Feb 2026 - Present</small>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="lower-card-info">
-                        <div><i class="bi bi-check-circle"></i>&nbsp;Develop full stack web applications using ASP.NET
-                            Core MVC and SQL Server.</div>
-                        <div><i class="bi bi-check-circle"></i>&nbsp;Convert Figma designs and requirements into
-                            responsive, functional web interfaces.</div>
-                        <div><i class="bi bi-check-circle"></i>&nbsp;Participate in full project lifecycle from
-                            planning, development, testing, and deployment.</div>
-                    </div>
-                </div>
-                <div class="main-card">
-                    <div class="card-upper">
-                        <div class="experience-card-icon"><i class="bi bi-briefcase"></i></div>
-                        <div class="experience-card-title">
-                            <h2>Full Stack Developer</h2>
-                            <p><a href="https://www.linkedin.com/company/omicron-solutions-jo" target="_blank"
-                                    rel="noopener noreferrer"><i class="bi bi-link-45deg"></i>Omicron Solutions</a></p>
-                            <div class="experience-meta">
-                                <small><i class="bi bi-geo-alt"></i>&nbsp;Hybrid</small>
-                                <small><i class="bi bi-calendar3"></i>&nbsp;Oct 2025 – Jan 2026</small>
-                            </div>
-                        </div>
-                    </div>
+        <footer class="main-footer reveal" id="contact">
+            <p class="footer-cta-compact">Let’s connect and work together.</p>
 
-                    <div class="lower-card-info">
-                        <div><i class="bi bi-check-circle"></i>&nbsp;Build web applications using ASP.NET Core MVC, C#,
-                            and SQL Server.</div>
-                        <div><i class="bi bi-check-circle"></i>&nbsp;Implement authentication and authorization for
-                            secure user access and management.</div>
-                        <div><i class="bi bi-check-circle"></i>&nbsp;Integrate third-party services including Stripe
-                            payments and email notification systems.</div>
-                    </div>
-                </div>
-
+            <div class="footer-icons-compact">
+                <a href="https://www.linkedin.com/in/hussamkhaled01/" target="_blank" class="footer-icon-btn">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://github.com/HussamKhaled01" target="_blank" class="footer-icon-btn">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="mailto:hussamkhaledb@gmail.com" target="_blank" class="footer-icon-btn">
+                    <i class="bi bi-envelope"></i>
+                </a>
             </div>
 
-        </section>
+            <p class="footer-copyright">&copy; 2026 Hussam Khaled. All rights reserved.</p>
+        </footer>
 
+        <a href="#top" class="scroll-top" aria-label="Scroll to top">
+            <i class="bi bi-chevron-up"></i>
+        </a>
 
-        <section class="contact" id="contact">
-
-            <a href="https://github.com/HussamKhaled01" target="_blank"><i class="bi bi-github"></i></a>
-
-            <a href="https://www.linkedin.com/in/hussamkhaled01/" target="_blank"><i class="bi bi-linkedin"></i></a>
-            <a href="mailto:hussamkhaledb@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a>
-
-        </section>
-
-        <a href="#top" class="scroll-top">↑</a>
-
-
-    </main>
-
-    <footer></footer>
-
-
+        <script src='js/main.js' defer></script>
 </body>
 
 </html>
